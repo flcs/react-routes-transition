@@ -54,5 +54,8 @@ Context API e Async Storage  | https://youtu.be/gPpH-mTEwbM
 React Navigation: Alterando Rotas e Parâmetros  | https://youtu.be/C2k6kwSi9FY
 
 
+## Fernando
+
 NODE V17 dá erro, preferir NODE v16
+https://www.youtube.com/watch?v=lMLqvaq5r4Y
 ### 🙅🏿‍♂️End

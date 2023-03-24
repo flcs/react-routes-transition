@@ -10,9 +10,13 @@ import About from "./Views/About";
 export default function Routes() {
   const location = useLocation();
   return (
-    <Switch>
-      <Route path="/" exact component={Home} />
-      <Route path="/about" exact component={About} />
-    </Switch>
+    <TransitionGroup>
+      <CSSTransition key={location.key} classNames="fade" timeout={500}>
+        <Switch location={location}>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" exact component={About} />
+        </Switch>
+      </CSSTransition>
+    </TransitionGroup>
   );
 }
