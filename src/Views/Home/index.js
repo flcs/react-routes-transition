@@ -43,7 +43,7 @@ export default function Home() {
           </SmallText>
           <Row>
             <PrimaryButton to="/about">Get Started</PrimaryButton>
-            <PlayButton>Play</PlayButton>
+            <PlayButton>Play!</PlayButton>
           </Row>
         </Col>
       </Content>
